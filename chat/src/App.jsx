@@ -9,7 +9,7 @@ const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <Router basename="/Chat-Application">
+    <Router basename="/Chart-App3">
       <div className="app-container">
         <Routes>
           <Route path="/" element={<HomePage />} />
